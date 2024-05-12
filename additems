@@ -1,0 +1,16 @@
+<form action="//www-creators.com/rsc/receiver.php" method="post">
+  <label class="label" for="name">食材保管場所</label>
+  <input id="radio-a" type="radio" name="class" value="冷蔵庫" checked><label for="radio-a">冷蔵庫</label><br>
+  <input id="radio-b" type="radio" name="class" value="野菜室"><label for="radio-b">野菜室</label><br>
+  <input id="radio-c" type="radio" name="class" value="冷凍庫"><label for="radio-c">冷凍庫</label><br>
+  <input id="radio-d" type="radio" name="class" value="冷凍庫"><label for="radio-d">冷凍庫</label><br>
+  <label class="label" for="name">食材</label>
+  <input id="food" type="text" name="name">
+  <label class="label" for="name">個数</label>
+  <input id="number" type="email" name="name">
+  <input type="submit">
+</form>
+
+<style>
+label, input[type=text]{
+ display:block;
